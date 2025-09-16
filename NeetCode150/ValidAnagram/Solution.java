@@ -16,5 +16,6 @@ class Solution {
     public static void main(String[] args) {
         String s1 = "anagram", s2 = "nagaram";
         boolean ans = isAnagram(s1,s2);
+        System.out.println("Strings are anagram : "+ ans );
     }
 }
